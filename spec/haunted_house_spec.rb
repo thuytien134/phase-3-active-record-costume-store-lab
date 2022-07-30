@@ -26,7 +26,7 @@ describe "HauntedHouse" do
     asylum.update(family_friendly: false)
     expect(asylum.family_friendly).to eq(false)
   end
-  # binding.pry
+
   it "has an opening_date (datetime)" do
     sept_27th = Date.new(2014, 9, 27)
     asylum.update(opening_date: sept_27th)
